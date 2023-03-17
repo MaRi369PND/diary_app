@@ -4,7 +4,8 @@ class Diary < ApplicationRecord
     validate :proper_title_and_body
 
     private
-
+    
+    scope :newest, -> { where(created_at: 1.week.ago..Time.now) }
         def proper_title_and_body
             unless title.starts_with?('今日')
                 errors.add(:title, 'は「今日」から始めてください。')
