@@ -99,6 +99,20 @@ label {
 
 header {
   height: 20px;
+  width: auto;  
+  /*border: solid 2px black;*/
+}
+
+.list-menu {
+  list-style: none;
+  float: left;
+  display: flex;
+  justify-content: flex-end;
+  /*border: solid 2px black;*/
+}
+
+.list-menu li {
+  margin-right: 20px;
 }
 
 main {
