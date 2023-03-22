@@ -104,9 +104,10 @@ header {
 main {
   background-image: url('back-image.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1250px;
   text-align: center;
-  height: 600px;
+  height: 1000px;
+  width: 100%;
 }
 
 main h1 {
