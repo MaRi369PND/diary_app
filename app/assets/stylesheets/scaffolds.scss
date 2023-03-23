@@ -98,21 +98,29 @@ label {
 }
 
 header {
-  height: 20px;
-  width: auto;  
+  height: 50px;
+  width: auto;
+  font-size: 15px;
+  font-weight: bold;
   /*border: solid 2px black;*/
 }
 
-.list-menu {
+#list-menu {
   list-style: none;
-  float: left;
-  display: flex;
-  justify-content: flex-end;
   /*border: solid 2px black;*/
 }
 
-.list-menu li {
-  margin-right: 20px;
+#list-menu li {
+  width: 130px;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(234, 189, 240);
+}
+
+#list-menu li a {
+  /*text-decoration: none;*/
+  font-weight: bold;
 }
 
 main {
