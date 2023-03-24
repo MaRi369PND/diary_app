@@ -98,11 +98,17 @@ label {
 }
 
 header {
-  height: 50px;
+  background-image: url('icon.jpg');
+  background-repeat: no-repeat;
+  height: 150px;
   width: auto;
   font-size: 15px;
   font-weight: bold;
   /*border: solid 2px black;*/
+}
+
+.logo img {
+  height: 45px;
 }
 
 #list-menu {
