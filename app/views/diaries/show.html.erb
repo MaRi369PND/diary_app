@@ -1,35 +1,32 @@
 <p id="notice"><%= notice %></p>
 <main>
-  <div class="diaries-inside">
-    <div class="inside">
+    <div class="diaries-inside">
+      <div class="inside">
       <p>
         <strong>ID:</strong>
         <%= @diary.id %>
       </p>
 
-      <p>
+      <p>        
         <strong>タイトル:</strong>
         <%= @diary.title %>
       </p>
 
-      <p>
+      <p>  
         <strong>本文:</strong>
         <%= @diary.body %>
       </p>
-    </div>
 
-    <div class="diary-detail">
       <p>
         <strong>登録日時:</strong>
         <%= @diary.created_at %>
       </p>
 
-      <p>
+      <p>       
         <strong>更新日時:</strong>
         <%= @diary.updated_at %>
       </p>
     </div>
-
     <div class="diary-detail2">
       <%= link_to '編集', edit_diary_path(@diary) %> |
       <%= link_to '削除', @diary, method: :delete, data: { confirm: '本当に削除しますか？'} %> |

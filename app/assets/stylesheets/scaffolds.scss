@@ -98,7 +98,6 @@ label {
 }
 
 header {
-  background-repeat: no-repeat;
   height: 100px;
   width: auto;
   font-size: 15px;
@@ -148,10 +147,10 @@ main h1 {
 
 .diaries-inside p {
   font-size: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 .diary-detail {
   font-size: 13px;
-  border: solid 2px black;
+  /*border: solid 2px black;*/
 }
